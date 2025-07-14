@@ -30,7 +30,7 @@ pipeline {
 	environment {
         HARBOR_HOSTNAME="https://eap-cr.advantech.com.tw"
         HARBOR_CREDENTIALS_ID = 'EAP.CICDHarbor'
-        HARBOR_REPOSITORY = 'eap-cr.advantech.com.tw/productservice/web'
+        HARBOR_REPOSITORY = 'eap-cr.advantech.com.tw/test/web'
         EMAIL_NOTIDICATION_LIST='IT-Developers@advantechO365.onmicrosoft.com'
         HARBOR_PASSWORD="Adv2024cicd"
     }
@@ -40,8 +40,8 @@ pipeline {
             steps {
                 script {
                     git branch: branchName,
-					credentialsId: 'ITD_EA_Github',
-					url: 'https://github.com/CoFoundAdv/ProductService.git'
+					credentialsId: 'test',
+					url: 'https://github.com/WillLin-Advantech/HelloWorld.git'
                 }
             }
         }
