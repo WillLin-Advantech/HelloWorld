@@ -1,0 +1,6 @@
+  FROM mcr.microsoft.com/dotnet/aspnet:8.0
+  USER $APP_UID
+
+  COPY bin/Release/net8.0/publish/ app/
+  WORKDIR /app
+  ENTRYPOINT ["dotnet", "HelloWorld.DbMigrator.dll"]

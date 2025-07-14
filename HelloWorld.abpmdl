@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.2.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "HelloWorld.Application": {
+      "path": "src/HelloWorld.Application/HelloWorld.Application.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.Application.Tests": {
+      "path": "test/HelloWorld.Application.Tests/HelloWorld.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "HelloWorld.Domain.Shared": {
+      "path": "src/HelloWorld.Domain.Shared/HelloWorld.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.Application.Contracts": {
+      "path": "src/HelloWorld.Application.Contracts/HelloWorld.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.HttpApi": {
+      "path": "src/HelloWorld.HttpApi/HelloWorld.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.HttpApi.Client": {
+      "path": "src/HelloWorld.HttpApi.Client/HelloWorld.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.Web": {
+      "path": "src/HelloWorld.Web/HelloWorld.Web.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.Web.Tests": {
+      "path": "test/HelloWorld.Web.Tests/HelloWorld.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "HelloWorld.EntityFrameworkCore.Tests": {
+      "path": "test/HelloWorld.EntityFrameworkCore.Tests/HelloWorld.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "HelloWorld.EntityFrameworkCore": {
+      "path": "src/HelloWorld.EntityFrameworkCore/HelloWorld.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.TestBase": {
+      "path": "test/HelloWorld.TestBase/HelloWorld.TestBase.abppkg",
+      "folder": "test"
+    },
+    "HelloWorld.Domain.Tests": {
+      "path": "test/HelloWorld.Domain.Tests/HelloWorld.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "HelloWorld.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/HelloWorld.HttpApi.Client.ConsoleTestApp/HelloWorld.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "HelloWorld.DbMigrator": {
+      "path": "src/HelloWorld.DbMigrator/HelloWorld.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "HelloWorld.Domain": {
+      "path": "src/HelloWorld.Domain/HelloWorld.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
